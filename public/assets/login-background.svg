@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f5f57;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a4842;stop-opacity:1" />
+    </linearGradient>
+    
+    <pattern id="grid" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M 80 0 L 0 0 0 80" fill="none" stroke="white" stroke-width="0.5" opacity="0.03"/>
+    </pattern>
+  </defs>
+  
+  <!-- Fundo gradiente -->
+  <rect width="1920" height="1080" fill="url(#bgGrad)"/>
+  
+  <!-- Grid sutil -->
+  <rect width="1920" height="1080" fill="url(#grid)"/>
+  
+  <!-- Círculos decorativos sutis -->
+  <circle cx="1650" cy="250" r="280" fill="white" opacity="0.015"/>
+  <circle cx="250" cy="850" r="200" fill="white" opacity="0.015"/>
+  
+  <!-- Linhas diagonais sutis -->
+  <g opacity="0.02" stroke="white" stroke-width="1" fill="none">
+    <line x1="0" y1="400" x2="600" y2="0"/>
+    <line x1="1920" y1="700" x2="1400" y2="1080"/>
+  </g>
+</svg>
